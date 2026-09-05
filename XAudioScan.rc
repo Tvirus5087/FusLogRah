@@ -1,0 +1,27 @@
+#include <winver.h>
+
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+FILEOS          VOS_NT_WINDOWS32
+FILETYPE        VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName",      "Modder Tvirus5087"
+            VALUE "FileDescription",  "Skyrim SE audio format checker"
+            VALUE "FileVersion",      "1.0.0.0"
+            VALUE "InternalName",     "XAudioScan"
+            VALUE "LegalCopyright",   "Steve Townsend"
+            VALUE "OriginalFilename", "XAudioScan.exe"
+            VALUE "ProductName",      "XAudioScan"
+            VALUE "ProductVersion",   "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
